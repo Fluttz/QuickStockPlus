@@ -8,6 +8,20 @@
 // @grant        none
 // ==/UserScript==
 
+//HOW TO USE THIS SCRIPT
+//Simply open Quick Stock and click the Quick Stock+ button
+//There are a few filtering rules loaded by default to hide all donate and discard buttons, and to do stuff with nerkmids and codestones, feel free to edit or remove them
+//Rules are applied in ascending order e.g. if rule 1 sets "Negg" to Stock and rule 5 sets "Negg" to Deposit, "Negg" will be set to Deposit
+//To rearrange rules, edit a rule's number - all other rules will be shifted over so that the rule ends up in the correct position
+//When using partial or exact match, you can list multiple items by using a semicolon ; between each item. Note: this does not apply to regex
+//Use the Test Match button for a preview of which of the items currently in your quick stock fit the filter
+//Colors can be hex colors (#ff10ab) or named colors that CSS supports (cyan, beige, etc.)
+//Only one rule can be edited at a time, and no changes are saved until you press the buttons to save or delete a rule!
+
+
+
+
+//CODE STARTS HERE
 //Declaring all the elements used by the custom menu
 //Main panel
 
